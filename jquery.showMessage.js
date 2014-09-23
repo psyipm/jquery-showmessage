@@ -35,13 +35,13 @@
         this._initDialog = function() {
             var that = this;
             $("#"+this.s.id).dialog({
-                autoOpen: this.s.autoOpen,
-                resizable: this.s.resizable,
-                width: this.s.width,
-                modal: this.s.modal,
+                autoOpen: that.s.autoOpen,
+                resizable: that.s.resizable,
+                width: that.s.width,
+                modal: that.s.modal,
                 buttons: [
                     {
-                        id: this.s.id+"_btn_ok",
+                        id: that.s.id+"_btn_ok",
                         text: "Ok",
                         click: function() {
                             $(this).dialog("close");
