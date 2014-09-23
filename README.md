@@ -4,8 +4,8 @@ Show message using jquery-ui dialog without html markup and dialog initializatio
 
 Requirements
 ----
-jQuery
-jQuery-ui
+* jQuery
+* jQuery-ui
 
 Usage
 ----
